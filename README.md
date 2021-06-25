@@ -4,7 +4,7 @@
 
 Добавлять изменения мы будем постепенно, чтобы в вашем репозитории была красивая история коммитов. Потому что именно так происходит написание промышленного кода, а наша задача в этом курсе — максимально приблизиться к этому процессу.
 
-------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 Final project of the Stepik course "Test Automation with Selenium and Python".
 
 In this module, we will create a full-fledged test project from scratch, which will be your final task. To do this, we will use the industry-popular Git and GitHub tools, which we outlined in the previous module.
