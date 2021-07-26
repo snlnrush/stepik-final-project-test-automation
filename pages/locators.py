@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class MainPageLocators():
+class MainPageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     EMPTY_BASKET_MESSAGE = (By.CSS_SELECTOR, "div#content_inner p")
 
@@ -9,6 +9,10 @@ class MainPageLocators():
 class LoginPageLocators:
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     REGISTR_FORM = (By.CSS_SELECTOR, "#register_form")
+    REGISTR_EMAIL = (By.CSS_SELECTOR, "#id_registration-email")
+    REGISTR_PASS = (By.CSS_SELECTOR, "#id_registration-password1")
+    REP_REGISTR_PASS = (By.CSS_SELECTOR, "#id_registration-password2")
+    REGISTR_BUTTON = (By.NAME, "registration_submit")
 
 
 class ProductPageLocators:
@@ -20,11 +24,12 @@ class ProductPageLocators:
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, "div#messages div.alert:nth-child(1)")
 
 
-class BasePageLocators():
+class BasePageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link")
     BASKET_LINK = (By.CSS_SELECTOR, "div.basket-mini a.btn.btn-default")
+    USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 
-class BasketPageLocators():
-	BASKET_TOTAL = (By.CSS_SELECTOR, "#basket_totals .total")
+class BasketPageLocators:
+    BASKET_TOTAL = (By.CSS_SELECTOR, "#basket_totals .total")
